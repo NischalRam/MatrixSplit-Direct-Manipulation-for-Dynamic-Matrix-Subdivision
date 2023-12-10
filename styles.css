@@ -1,0 +1,112 @@
+.marquee td {
+    background-color: #BCA37F;
+}
+
+.selected {
+    background-color: #BCA37F;
+}
+
+.circle-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .circle {
+    margin-left: 1em;
+    position: relative;
+  }
+  
+  .circle:before {
+    content: "\25CF"; /* Unicode character for a filled circle */
+    display: inline-block;
+    width: 1em;
+    text-align: center;
+    margin-left: -1.3em; /* Adjust as needed to control spacing */
+    margin-right: 0.5em; /* Adjust as needed to control spacing */
+    font-size: 1.5em; /* Adjust the size of the circle */
+    color: #000; /* Circle color */
+  }
+  
+  /* Additional CSS styles can be added to adjust spacing and appearance as needed. */
+  
+
+.header {
+    text-align: center;
+    background-color: #BCA37F;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.header1 {
+    text-align: center;
+    background-color: #EAD7BB;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+}
+
+
+body {
+    background-color: #EAD7BB;
+    font-family: Arial, sans-serif;
+}
+
+.matrix-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #113946;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #FFF2D8;
+}
+
+tr:nth-child(odd) {
+    background-color: #FCE5B8;
+}
+
+td {
+    border: 1px solid #113946;
+}
+
+#submatrices {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    margin: 10px;
+}
+
+button {
+    background-color: #0b85d7;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
